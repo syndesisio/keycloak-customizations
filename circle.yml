@@ -4,4 +4,5 @@ machine:
 
 test:
   post:
-  - cp $(find -name *.jar ! -path '*/.mvn/*') $CIRCLE_ARTIFACTS/
+  - cp ./openshift-provider/target/openshift-0.1-SNAPSHOT.jar $CIRCLE_ARTIFACTS/openshift-provider.jar
+  - cp ./theme/target/theme-0.1-SNAPSHOT.jar $CIRCLE_ARTIFACTS/ipaas-theme.jar
