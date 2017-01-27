@@ -1,0 +1,7 @@
+machine:
+  java:
+    version: openjdk8
+
+test:
+  post:
+  - cp $(find -name *.jar ! -path '*/.mvn/*') $CIRCLE_ARTIFACTS/
