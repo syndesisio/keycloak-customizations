@@ -63,11 +63,12 @@
   <modules>
     <module>theme</module>
     <module>openshift-provider</module>
+    <module>autolink-idp</module>
   </modules>
 
   <properties>
-    <auto-service.version>1.0-rc2</auto-service.version>
-    <keycloak.version>2.5.1.Final</keycloak.version>
+    <auto-service.version>1.0-rc3</auto-service.version>
+    <keycloak.version>2.5.4.Final</keycloak.version>
   </properties>
 
   <dependencyManagement>
