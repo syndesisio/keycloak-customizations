@@ -12,10 +12,10 @@ import org.keycloak.models.UserModel;
 public class AutoLinkIDPAuthenticator extends AbstractIdpAuthenticator {
 
   protected void authenticateImpl(AuthenticationFlowContext context, SerializedBrokeredIdentityContext serializedCtx, BrokeredIdentityContext brokerContext) {
-    UserModel existingUser = AbstractIdpAuthenticator.getExistingUser(context.getSession(), context.getRealm(), context.getClientSession());
+    UserModel authenticatedUser = context.getClientSession().getAuthenticatedUser();
 
-    if(existingUser != null) {
-      context.setUser(existingUser);
+    if(authenticatedUser != null) {
+      context.setUser(authenticatedUser);
       context.success();
     } else {
       context.failure(AuthenticationFlowError.UNKNOWN_USER);
