@@ -28,7 +28,7 @@ import java.net.URL;
 
 public class OpenShiftIdentityProvider extends AbstractOAuth2IdentityProvider<OpenShiftIdentityProviderConfig> {
 
-  public static final String DEFAULT_SCOPE = "user:info";
+  public static final String DEFAULT_SCOPE = "user:info, repo";
 
   public OpenShiftIdentityProvider(KeycloakSession session, OpenShiftIdentityProviderConfig config) {
     super(session, config);
