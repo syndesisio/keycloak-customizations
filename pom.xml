@@ -26,7 +26,7 @@
   <packaging>pom</packaging>
   <name>iPaaS Keycloak parent</name>
   <description>Keycloak customizations for iPaaS</description>
-  <version>0.1-SNAPSHOT</version>
+  <version>0.1.0.fuse-000009</version>
 
   <url>https://www.syndesis.io</url>
   <inceptionYear>2016</inceptionYear>
