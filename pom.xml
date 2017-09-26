@@ -21,19 +21,19 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.redhat.ipaas.keycloak</groupId>
+  <groupId>io.syndesis.keycloak</groupId>
   <artifactId>parent</artifactId>
   <packaging>pom</packaging>
   <name>iPaaS Keycloak parent</name>
   <description>Keycloak customizations for iPaaS</description>
   <version>0.1-SNAPSHOT</version>
 
-  <url>https://redhat.com/</url>
+  <url>https://www.syndesis.io</url>
   <inceptionYear>2016</inceptionYear>
 
   <organization>
-    <name>Red Hat</name>
-    <url>https://redhat.com/</url>
+    <name>Syndesis</name>
+    <url>https://syndesis.io/</url>
   </organization>
 
   <licenses>
@@ -49,16 +49,16 @@
   <developers>
     <developer>
       <id>geeks</id>
-      <name>Red Hat iPaaS Development Team</name>
-      <organization>Red Hat</organization>
-      <organizationUrl>https://redhat.com/</organizationUrl>
+      <name>Syndesis Development Team</name>
+      <organization>Syndesis</organization>
+      <organizationUrl>https://syndesis.io/</organizationUrl>
     </developer>
   </developers>
 
   <scm>
-    <connection>scm:git:git@github.com:redhat-ipaas/keycloak-customizations.git</connection>
-    <developerConnection>scm:git:git@github.com:redhat-ipaas/keycloak-customizations.git</developerConnection>
-    <url>http://github.com/redhat-ipaas/keycloak-customizations/</url>
+    <connection>scm:git:git@github.com:syndesisio/keycloak-customizations.git</connection>
+    <developerConnection>scm:git:git@github.com:syndesisio/keycloak-customizations.git</developerConnection>
+    <url>http://github.com/syndesisio/keycloak-customizations/</url>
     <tag>${project.version}</tag>
   </scm>
 
